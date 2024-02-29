@@ -14,23 +14,6 @@ var remModule: RM::M72E12RA_SubModule = {_}
 func init() {
 
 	
-	remModule.var1 = 10
-
-	//bkpt()
-	remModule.module01_ra.regs.relays = 0x55
-
-	let val = #remModule.module01_ra.regs
-	Println("rm2: " + val)
-
-	remModule.module01_ra.init(0, 1)
-
-	Println("start init")
-
-
-
-	Println("rm: " + remModule.module01_ra.regs.relays)
-	
-
 	for i in 0 to 6 {
 		
 		//bkpt()
@@ -48,11 +31,9 @@ func init() {
 		}
 	}
 
-	Println("after ui")
 
 	GUI_setDraw(GUI::DrawMainScreen)
 
-	Println("end init")
 }
 
 

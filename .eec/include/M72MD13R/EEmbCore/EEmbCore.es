@@ -1,7 +1,7 @@
 enum {
 	UI_1 = 0,
 	UI_2, UI_3, UI_4, UI_5,
-	UI_6, UI_7
+	UI_6, UI_7,
 	UI_INPUT_COUNT
 }
 

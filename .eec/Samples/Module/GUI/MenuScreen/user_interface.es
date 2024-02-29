@@ -47,16 +47,16 @@ func DrawMenuScreen(ctx: &EG_userContext_t) {
 	//var relays: mut &EEmb_modbus_local_h_t// = #MBL_H_RELAYS
 	//var relays: uint32 = MBL_H_RELAYS
 
-	let a  = ctx.data.data
-	Println(""+a)
-	ctx.data.data++
+	//let a  = ctx.data.data
+	//Println(""+a)
+	//ctx.data.data++
 
 
-	let prevAllocs = AllocatedCount
-	let prevDestoyed = DestroyedCount
+	//let prevAllocs = AllocatedCount
+	//let prevDestoyed = DestroyedCount
 
-	Println("Prev Allocs: "+prevAllocs)
-	Println("Prev Destroyed: "+prevDestoyed)
+	//Println("Prev Allocs: "+prevAllocs)
+	//Println("Prev Destroyed: "+prevDestoyed)
 
 
 	GUI_createContext() $$
@@ -173,11 +173,11 @@ func DrawMenuScreen(ctx: &EG_userContext_t) {
 		}
 	}
 
-	let allocs =  AllocatedCount - prevAllocs
-	let destoyed =  DestroyedCount - prevDestoyed
+	//let allocs =  AllocatedCount - prevAllocs
+	//let destoyed =  DestroyedCount - prevDestoyed
 
-	Println( "Allocs: " + allocs )
-	Println( "Destroyed: " + destoyed )
+	//Println( "Allocs: " + allocs )
+	//Println( "Destroyed: " + destoyed )
 
 	// layout(20, 1) $ 
 	// {
