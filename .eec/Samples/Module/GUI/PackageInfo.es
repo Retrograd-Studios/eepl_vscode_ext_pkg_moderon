@@ -1,0 +1,9 @@
+
+
+SetPackageName(GUI)
+
+
+SetSources("./*")
+
+
+
