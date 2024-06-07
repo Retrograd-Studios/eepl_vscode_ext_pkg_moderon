@@ -72,6 +72,11 @@ enum {
 
 
 
+let DEV_deviceName = "M72OD20R"
+let DEV_manufacturerName = "Moderon"
+
+
+
 
 extern demangle func SET_BUTTON_HANDLER( func {(uint32, uint32) -> void}  )
 extern demangle func DelayMs( uint32 ) -> void

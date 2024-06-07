@@ -15,6 +15,8 @@ SetSources("./BindVariable.es")
 SetSources("./EasyFont.es")
 SetSources("./EasyImage.es")
 SetSources("./EasyGUI.es")
+SetSources("./Watchdogs.es")
+SetSources("./Messages.es")
 
 
 BuildLib()

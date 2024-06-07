@@ -8,3 +8,6 @@ int16, int16, uint16, uint16) -> void
 extern demangle func GetTextSize(&FNT_font_t, pointer) -> uint32
 extern demangle func GetNextLine(pointer) -> pointer
 extern demangle func GetCharHeight(&FNT_font_t, char) -> uint32
+
+extern demangle func DisplaySetBrights(uint32)
+extern demangle func DisplaySetAutoBrights(uint32, uint32, uint32) 

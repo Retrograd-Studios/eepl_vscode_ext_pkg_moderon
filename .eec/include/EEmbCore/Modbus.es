@@ -63,6 +63,8 @@ struct ModbusRemModuleBase_t {
 	isEnabled: uint8
 	packSize: uint8
 	isHoldingsRead: uint8
+	isAutoRead: uint8
+	isShowMessages: uint8
 	regs: pointer
 }
 
@@ -144,6 +146,20 @@ struct EEmb_modbus_remote_reg_t {
 		return self.ptr
 	}
 
+	func OperatorGetValue(instance: &ModbusRemModuleBase_t) -> uint16 {
+		if instance.isAutoRead {
+			return self.ptr
+		}
+		return MB_READ_REMOTE_REG_WITH_INST(instance, self)
+	}
+
+	func OperatorGetValue(self: &EEmb_modbus_remote_reg_t, instance: &ModbusRemModuleBase_t) -> uint16 {
+		if instance.isAutoRead {
+			return self.ptr
+		}
+		return MB_READ_REMOTE_REG_WITH_INST(instance, self)
+	}
+
 	// func OperatorGetRef() -> &uint16 {
 	// 	return self.ptr
 	// }
@@ -172,9 +188,10 @@ extern demangle func MB_WRITE_H_REG_WITH_ADDR(pointer, uint16)
 extern demangle func MB_READ_H_REG_FROM_ADDR(&uint16) -> uint16
 
 extern demangle func MB_GET_ERROR(uint32) -> uint32
-extern demangle func MB_READ_REMOTE_REG(uint32, uint32, uint32, uint8, uint16) -> uint16
+extern demangle func MB_READ_REMOTE_REG_WITH_INST(&ModbusRemModuleBase_t, &EEmb_modbus_remote_reg_t) -> uint16
+//extern demangle func MB_READ_REMOTE_REG(uint32, uint32, uint32, uint8, uint16) -> uint16
 extern demangle func MB_WRITE_REMOTE_REG_WITH_INST(&ModbusRemModuleBase_t, &EEmb_modbus_remote_reg_t, uint16)
-extern demangle func MB_WRITE_REMOTE_REG(uint32, uint32, uint32, uint8, uint16, uint16)
+//extern demangle func MB_WRITE_REMOTE_REG(uint32, uint32, uint32, uint8, uint16, uint16)
 extern demangle func MODBUS_CFG(uint32, uint32, uint32, uint16)
 extern demangle func UART_CFG(uint32, uint32, uint32, uint32)
 

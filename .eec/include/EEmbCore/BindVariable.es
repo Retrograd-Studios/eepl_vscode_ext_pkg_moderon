@@ -147,7 +147,8 @@ struct EEmbBindVal_t {
 		}
 
 		if self.valType == EEMB_BIND_TP_MBL_REMOTE {
-			let val: &EEmb_modbus_remote_reg_t = self.ptrVal
+			//let val: &EEmb_modbus_remote_reg_t = self.ptrVal
+			let val: mut &EEmbBindValExt_t = #self
 			return val
 		}
 
@@ -205,6 +206,7 @@ struct EEmbBindVal_t {
 
 		if self.valType == EEMB_BIND_TP_STRING {
 			let val: mut &string = self.ptrVal
+			//bkpt()
 			val = rval
 			return
 		}
@@ -241,6 +243,12 @@ struct EEmbBindValExt_t {
 	extData: pointer
 
 	func OperatorGetValue(self: &EEmbBindValExt_t) -> uint16 {
+		
+		if self.valType == EEMB_BIND_TP_MBL_REMOTE {
+			let reg: &EEmb_modbus_remote_reg_t = self.ptrVal
+			return reg.OperatorGetValue(self.extData)
+		}
+
 		let val: &EEmbBindVal_t = #self
 		return val
 	}

@@ -15,6 +15,9 @@ SetSources("./../../EEmbCore/BindVariable.es")
 SetSources("./../../EEmbCore/EasyFont.es")
 SetSources("./../../EEmbCore/EasyImage.es")
 SetSources("./../../EEmbCore/EasyGUI.es")
+SetSources("./../../EEmbCore/DeviceInfo.es")
+SetSources("./../../EEmbCore/Watchdogs.es")
+SetSources("./../../EEmbCore/Messages.es")
 
 
 BuildLib()
