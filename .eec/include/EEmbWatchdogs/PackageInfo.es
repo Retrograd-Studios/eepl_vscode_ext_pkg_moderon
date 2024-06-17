@@ -1,0 +1,10 @@
+
+
+SetPackageName(EEmbWatchdogs)
+
+
+SetSources("./")
+
+
+BuildLib()
+

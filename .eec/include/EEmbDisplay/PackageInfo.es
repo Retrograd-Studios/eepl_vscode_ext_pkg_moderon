@@ -1,0 +1,10 @@
+
+
+SetPackageName(EEmbDisplay)
+
+
+SetSources("./")
+
+
+BuildLib()
+

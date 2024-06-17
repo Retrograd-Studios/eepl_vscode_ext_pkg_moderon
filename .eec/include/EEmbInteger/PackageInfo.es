@@ -1,0 +1,10 @@
+
+
+SetPackageName(EEmbInteger)
+
+
+SetSources("./")
+
+
+BuildLib()
+

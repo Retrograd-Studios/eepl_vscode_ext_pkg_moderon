@@ -1,0 +1,10 @@
+
+
+SetPackageName(EEmbMessages)
+
+
+SetSources("./")
+
+
+BuildLib()
+

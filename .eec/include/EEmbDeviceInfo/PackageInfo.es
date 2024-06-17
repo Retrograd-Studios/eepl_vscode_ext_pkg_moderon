@@ -1,0 +1,10 @@
+
+
+SetPackageName(EEmbDeviceInfo)
+
+
+SetSources("./")
+
+
+BuildLib()
+
