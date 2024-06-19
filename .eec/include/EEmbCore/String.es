@@ -25,6 +25,7 @@ struct string {
 		let size = EEmb_IntToString(buf, val)
 
 		var tmp = make string {_}
+
 		tmp.buf = MemAlloc(size)
 
 		// AllocatedCount++
@@ -32,6 +33,8 @@ struct string {
 		tmp.capacity = size
 
 		MemCopy(tmp.buf, buf, size)
+
+		//Println("Ok")
 
 		return tmp
 

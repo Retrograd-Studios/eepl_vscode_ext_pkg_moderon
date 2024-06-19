@@ -1,1 +1,0 @@
-{ "description":"M72MD13R - mini","devManId":1,"devName":"M72MD13R","frameWorkVerA":0,"frameWorkVerB":40,"periphInfo":{"aoCount":2,"relayCount":4,"uartCount":1,"uiCount":7,"flashSize":262144, "ramSize":65536, "flashPageSize":256},"triplet":"thumbv7m-none-none-eabi","runtime": "clang_rt.builtins-armv7m", "stdlib": "armv7m"}
