@@ -24,6 +24,8 @@ struct EG_context_t {
 
 
 struct EG_userContext_t {
+	isValueChanged: bool
+	isClicked: bool
     cursorPos: &uint32
 	data: mut &EG_dummyData_t
 }
@@ -58,7 +60,7 @@ extern demangle func __eg_switcher_draw(&EEmbBindVal_t, uint8, uint16)
 extern demangle func __eg_input_int_draw(&EEmbBindVal_t, int32, int32,  uint32,  uint8, uint16)
 extern demangle func __eg_input_float_draw(&EEmbBindVal_t, int32, int32,  uint8, uint32,  uint8, uint16)
 extern demangle func __eg_fill_draw(uint16, uint16)
-extern demangle func __eg_button_draw(c_string, uint16, int8, func {(uint8)->void}, uint16) -> uint32
+extern demangle func __eg_button_draw(c_string, uint16, int8, func {(uint8)->void}, uint16) 
 extern demangle func __eg_combo_box_draw(&EEmbBindVal_t, uint16, uint32, array, array, uint8, uint16)
 extern demangle func __eg_ghostStepInParent()
 extern demangle func __eg_set_borders(uint16, uint16)

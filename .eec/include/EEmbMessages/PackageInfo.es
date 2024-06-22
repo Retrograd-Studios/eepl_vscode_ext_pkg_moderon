@@ -6,5 +6,3 @@ SetPackageName(EEmbMessages)
 SetSources("./")
 
 
-BuildLib()
-

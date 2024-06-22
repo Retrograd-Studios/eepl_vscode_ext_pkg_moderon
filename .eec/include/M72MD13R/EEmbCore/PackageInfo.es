@@ -17,5 +17,5 @@ SetSources("./../../EEmbCore/EasyGUI.es")
 SetSources("./../../EEmbCore/Device.es")
 
 
-BuildLib()
+
 

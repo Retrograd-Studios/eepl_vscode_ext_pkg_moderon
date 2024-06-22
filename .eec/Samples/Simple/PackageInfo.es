@@ -20,5 +20,5 @@ SetStackForDrawTask(1024)
 
 
 //-- говорим что хотим создать приложение
-BuildApp()
+BuildApp(app)
 

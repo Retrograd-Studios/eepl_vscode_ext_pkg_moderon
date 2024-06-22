@@ -6,5 +6,5 @@ SetPackageName(EEmbWatchdogs)
 SetSources("./")
 
 
-BuildLib()
+
 

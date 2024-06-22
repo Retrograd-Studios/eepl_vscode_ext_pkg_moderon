@@ -4,7 +4,3 @@ SetPackageName(EEmbDisplay)
 
 
 SetSources("./")
-
-
-BuildLib()
-

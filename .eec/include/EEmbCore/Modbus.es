@@ -19,14 +19,12 @@ enum  {
 
 struct ModbusIRegGroup_t {
 	regs: &uint16
-	defaults: &uint16
 	startAddr: uint16
 	count: uint16
 }
 
 struct ModbusHRegGroup_t {
 	regs: &uint16
-	defaults: &uint16
 	ranges: &uint16
 	startAddr: uint16
 	count: uint16
@@ -50,6 +48,7 @@ struct ModbusRemoteRegTable_t {
 
 
 struct ModbusRemModuleBase_t {
+	errorCallback: func { (mut &ModbusRemModuleBase_t, uint32, uint8, uint8, uint16) }
 	modbusRegsGrps: &ModbusRemoteGrpReg_t 
 	modbusRegsGrpsSize: uint32
 	comPort: uint32

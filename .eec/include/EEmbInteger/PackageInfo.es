@@ -6,5 +6,3 @@ SetPackageName(EEmbInteger)
 SetSources("./")
 
 
-BuildLib()
-

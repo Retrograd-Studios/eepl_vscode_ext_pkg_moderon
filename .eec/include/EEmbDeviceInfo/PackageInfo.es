@@ -5,6 +5,3 @@ SetPackageName(EEmbDeviceInfo)
 
 SetSources("./")
 
-
-BuildLib()
-
