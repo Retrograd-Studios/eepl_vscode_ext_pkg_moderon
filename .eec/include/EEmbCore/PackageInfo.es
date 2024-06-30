@@ -15,4 +15,5 @@ SetSources("./EasyImage.es")
 SetSources("./EasyGUI.es")
 
 
+BuildLib()
 

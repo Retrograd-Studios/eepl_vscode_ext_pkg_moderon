@@ -215,6 +215,7 @@ struct EEmbBindVal_t {
 			Panic("Can't write to constant c_string")
 			return
 		} 
+		//ASSERT(self.valType != EEMB_BIND_TP_STRING_RAW, "Can't write to constant c_string")
 		
 		if self.valType == EEMB_BIND_TP_MBL_L_H {
 			let val: mut &EEmb_modbus_local_h_t = self.ptrVal

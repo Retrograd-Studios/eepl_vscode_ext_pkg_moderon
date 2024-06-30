@@ -221,9 +221,10 @@ struct string {
 
     func OperatorAt(index: uint32) -> mut &char {
 
-		if index >= self.size {
-			Panic("Error: Array index out of bounds")
-		}
+		// if index >= self.size {
+		// 	Panic("Error: Array index out of bounds")
+		// }
+		ASSERT(index < self.size, "Error: Array index out of bounds")
 
 		return self.buf[index]
 	
@@ -231,9 +232,10 @@ struct string {
 
 	func OperatorAt(self: &string, index: uint32) -> &char {
 
-		if index >= self.size {
-			Panic("Error: Array index out of bounds")
-		}
+		// if index >= self.size {
+		// 	Panic("Error: Array index out of bounds")
+		// }
+		ASSERT(index < self.size, "Error: Array index out of bounds")
 
 		return self.buf[index]
 	}
