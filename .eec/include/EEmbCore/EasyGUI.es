@@ -24,10 +24,43 @@ struct EG_context_t {
 
 
 struct EG_userContext_t {
+
 	isValueChanged: bool
-	isClicked: bool
+	isApplied: bool
+
+	isLeastOneValueChanged: bool
+	isLeastOneValueApplied: bool
+	
     cursorPos: &uint32
 	data: mut &EG_dummyData_t
+	
+	func isApplied(self: &EG_userContext_t) -> bool {
+		let mutSelf: mut &EG_userContext_t = #self
+		let isApplied = self.isApplied
+		mutSelf.isApplied = false
+		return isApplied
+	}
+	
+	func isValueChanged(self: &EG_userContext_t) -> bool {
+		let mutSelf: mut &EG_userContext_t = #self
+		let isValueChanged = self.isValueChanged
+		mutSelf.isValueChanged = false
+		return isValueChanged
+	}
+	
+	func isLeastOneValueChanged(self: &EG_userContext_t) -> bool {
+		//let isLeastOneValueChanged = self.isLeastOneValueChanged
+		//self.isLeastOneValueChanged = false
+		//return isLeastOneValueChanged
+		return self.isLeastOneValueChanged
+	}
+	
+	func isLeastOneValueApplied(self: &EG_userContext_t) -> bool {
+		//let isLeastOneValueApplied = self.isLeastOneValueApplied
+		//self.isLeastOneValueApplied = false
+		//return isLeastOneValueApplied
+		return self.isLeastOneValueApplied
+	}
 }
 
 struct EG_dummyData_t {
