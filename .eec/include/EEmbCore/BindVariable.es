@@ -76,6 +76,10 @@ struct EEmbBindVal_t {
 		var tmp = mk EEmbBindValExt_t{ ptrVal: val, valType: EEMB_BIND_TP_MBL_L_I, extData: remoteModule}
 		return tmp
 	}
+	
+	func OperatorMake(bind: &EEmbBindValExt_t) -> &EEmbBindVal_t {
+		return #bind
+	}
 
 
 	func OperatorGetValue(self: &EEmbBindVal_t) -> uint16 {
@@ -266,6 +270,15 @@ struct EEmbBindValExt_t {
 
 	}
 
+}
+
+
+func MakeBind(ext: pointer, reg: &EEmb_modbus_remote_reg_t) -> EEmbBindValExt_t {
+
+	let bind = mk EEmbBindValExt_t{ ptrVal: reg, valType: EEMB_BIND_TP_MBL_REMOTE, extData: ext }
+	
+	return bind
+	
 }
 
 
