@@ -1,0 +1,11 @@
+{ 
+	"description":"Desktop [Ubuntu AMD64]","devManId":0,"devName":"x64-linux","frameWorkVerA":0,"frameWorkVerB":1,"frameworkSize":63488,
+	"periphInfo":{
+		"isDesktop" : true, "isResourcesInternal" : true, 
+		"aoCount":0,"relayCount":0,"uartCount":0,"uiCount":0, "flashSize": 0, "ramSize":0, "flashPageSize":256
+	},
+	"triplet":"x86_64-pc-windows-msvc",
+	"runtime": "", "stdlib": "", 
+	"includePaths": [],
+	"stdlibs": []
+}
