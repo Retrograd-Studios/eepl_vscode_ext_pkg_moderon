@@ -8,13 +8,15 @@ enum {
 enum {
 	RELAY_1 = 0,
 	RELAY_2, RELAY_3, RELAY_4,
-	RELAY_5, RELAY_6
+	RELAY_5, RELAY_6,
+	RELAYS_COUNT
 }
 
 enum {
 	AO_1 = 0,
 	AO_2,
-	AO_3
+	AO_3,
+	AO_COUNT
 }
 
 
