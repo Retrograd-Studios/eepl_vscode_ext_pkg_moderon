@@ -42,7 +42,7 @@ struct ModbusHRegGroup_t {
 
 struct ModbusRemoteGrpReg_t {
 	regs: &uint16
-	startAddr: uint32
+	startAddr: uint16
 	count: uint16
 	regTp: uint16
 }
@@ -60,6 +60,7 @@ struct ModbusRemoteRegTable_t {
 struct ModbusRemModuleBase_t {
 	connectionRestoreCallback: func { (mut &ModbusRemModuleBase_t) }
 	errorCallback: func { (mut &ModbusRemModuleBase_t, uint32, uint8, uint8, uint16) }
+	changedRegValueCallback: func { (mut &ModbusRemModuleBase_t, &EEmb_modbus_remote_reg_t) }
 	modbusRegsGrps: &ModbusRemoteGrpReg_t 
 	modbusRegsGrpsSize: uint32
 	comPort: uint32

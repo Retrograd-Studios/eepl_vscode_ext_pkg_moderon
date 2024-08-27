@@ -1,5 +1,5 @@
 { 	
-	"description":"M72MD13R - Mini","devManId":1,"devName":"M72MD13R","frameWorkVerA":0,"frameWorkVerB":99,"frameworkSize":62464,
+	"description":"M72MD13R - Mini","devManId":1,"devName":"M72MD13R","frameWorkVerA":0,"frameWorkVerB":100,"frameworkSize":72192,
 	"periphInfo":{
 		"isDesktop" : false, "isResourcesInternal" : false,
 		"aoCount":2,"relayCount":4,"uartCount":1,"uiCount":7, "flashSize":262144, "ramSize":65536, "flashPageSize":256

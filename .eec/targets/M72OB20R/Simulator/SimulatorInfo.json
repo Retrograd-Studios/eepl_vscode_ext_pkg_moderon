@@ -125,7 +125,7 @@
                 "x": 417.0,
                 "y": 153.0
             },
-            "periphPortNum": 0,
+            "periphPortNum": 1,
             "targetHoverType": 2,
             "targetRect": {
                 "h": 30.0,
