@@ -1,0 +1,4 @@
+SetPackageName(EEmbRender)
+
+
+SetSources("./")
