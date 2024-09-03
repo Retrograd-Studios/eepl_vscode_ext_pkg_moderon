@@ -345,5 +345,6 @@ extern demangle func MB_FORCE_WRITE_REMOTE_REGS(&ModbusRemModuleBase_t, &EEmb_mo
 //extern demangle func MB_WRITE_REMOTE_REG(uint32, uint32, uint32, uint8, uint16, uint16)
 extern demangle func MODBUS_CFG(uint32, uint32, uint32, uint16)
 extern demangle func UART_CFG(uint32, uint32, uint32, uint32)
+extern demangle func UART_SET_FRAME_CFG(uint32, uint32, uint8)
 
 extern demangle func MB_REMOTE_MODULE_ADD_INSTANCE(pointer)
