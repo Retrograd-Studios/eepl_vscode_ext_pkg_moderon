@@ -88,14 +88,22 @@ extern demangle func __eg_layout_draw()
 extern demangle func __eg_flow_layout_draw()
 extern demangle func __eg_canvas_draw()
 extern demangle func __eg_label_draw(c_string, uint32, uint16)
+extern demangle func __eg_dyn_label_draw(c_string, uint32, uint16)
 extern demangle func __eg_img_draw(&IMG_dat_t, func {(uint8)->void}, uint8, uint16)
+extern demangle func __eg_animation_draw(
+	pointer, pointer, uint8, 
+	uint16, uint16, 
+	uint8,
+	uint16, uint16,
+	uint16
+)
 extern demangle func __eg_list_draw()
 extern demangle func __eg_switcher_draw(&EEmbBindVal_t, uint8, uint16)
 extern demangle func __eg_input_int_draw(&EEmbBindVal_t, int32, int32,  uint32,  uint8, uint16)
 extern demangle func __eg_input_float_draw(&EEmbBindVal_t, int32, int32,  uint8, uint32,  uint8, uint16)
 extern demangle func __eg_fill_draw(uint16, uint16)
 extern demangle func __eg_button_draw(c_string, uint16, int8, func {(uint8)->void}, uint16) 
-extern demangle func __eg_combo_box_draw(&EEmbBindVal_t, uint16, uint32, array, array, uint8, uint16)
+extern demangle func __eg_combo_box_draw(&EEmbBindVal_t, uint16, uint32, pointer, pointer, uint8, uint16)
 extern demangle func __eg_ghostStepInParent()
 extern demangle func __eg_set_borders(uint16, uint16)
 extern demangle func __eg_set_unit(c_string, uint16)

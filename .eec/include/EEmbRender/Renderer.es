@@ -73,7 +73,7 @@ func DrawPixel(x: uint16, y: uint16, color: uint16) {
 extern demangle func _DrawRect(uint16, uint16, uint16, uint16, uint16) -> void
 extern demangle func DrawImg(&IMG_dat_t, uint8, uint8, uint16) -> void
 extern demangle func DrawImgWithSize(&IMG_dat_t, uint8, uint8, uint8, uint8, uint8, uint16)
-extern demangle func DrawText(&FNT_font_t, pointer, uint8, uint8, uint8, uint8, 
+extern demangle func DrawText(&FNT_font_t, c_string, uint8, uint8, uint8, uint8, 
 int16, int16, uint16, uint16) -> void
 
 extern demangle func GetTextSize(&FNT_font_t, pointer) -> uint32

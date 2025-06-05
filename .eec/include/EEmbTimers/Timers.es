@@ -60,7 +60,7 @@ struct Timer {
 		ASSERT(self.tmrHandle.ptr, "Error: Using deleted timer")
 		
 		xTimerDelete(self.tmrHandle.ptr)
-
+		// bkpt()
 		self.tmrHandle.ptr = null
 
 	}
@@ -130,6 +130,7 @@ struct Timer {
 	}
 
 	func setId(self: &Timer, id: int32) {
+		// bkpt()
 		self.tmrHandle.id = id
 	}
 

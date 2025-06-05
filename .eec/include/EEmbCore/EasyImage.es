@@ -5,6 +5,10 @@ struct IMG_dat_t {
 	raw: &int8
 	width: uint8
 	height: uint8
+
+	func GetPtr(self: &IMG_dat_t) -> &IMG_dat_t {
+		return self
+	}
 }
 
 

@@ -88,7 +88,7 @@ extern demangle func RELAY_TOGGLE(uint32)
 extern demangle func RELAYS_TOGGLE(uint32)
 extern demangle func RELAYS_SET(uint32, uint8)
 extern demangle func AO_OUTPUT(uint32, uint32)
-extern demangle func UI_READ_DI(uint32) -> uint32
+extern demangle func UI_READ_DI(uint32) -> bool
 extern demangle func UI_READ_AI(uint32) -> int32
 extern demangle func UI_READ_ALL_DI(uint32) -> uint32
 extern demangle func UI_CFG(uint32, uint32)
