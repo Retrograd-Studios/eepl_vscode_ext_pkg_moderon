@@ -1,5 +1,5 @@
 { 	
-	"description":"M72OB13R - Blind","devManId":3,"devName":"M72OB13R","frameWorkVerA":0,"frameWorkVerB":106,"frameworkSize":78336,
+	"description":"M72MB13R - Blind","devManId":3,"devName":"M72MB13R","frameWorkVerA":0,"frameWorkVerB":106,"frameworkSize":78336,
 	"periphInfo":{
 		"isDesktop" : false, "isResourcesInternal" : false,
 		"aoCount":2,"relayCount":4,"uartCount":1,"uiCount":7, "flashSize":262144, "ramSize":65536, "flashPageSize":256
