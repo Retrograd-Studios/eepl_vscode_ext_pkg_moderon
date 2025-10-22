@@ -1,18 +1,27 @@
-{ 	
-	"description":"M72FSR","devManId":4,"devName":"M72FSR","frameWorkVerA":0,"frameWorkVerB":205,"frameworkSize":71936,
-	"periphInfo":{
-		"isDesktop" : false, "isResourcesInternal" : false,
-		"aoCount":1,"relayCount":4,"uartCount":1,"uiCount":4, "flashSize":262144, "ramSize":65536, "flashPageSize":256
+{
+	"devName": "M72FSR",
+	"devManId": 4,
+	"frameWorkVerA": 0,
+	"frameWorkVerB": 205,
+	"description": "M72FSR",
+	"frameworkSize": 71936,
+	"periphInfo": {
+		"isDesktop": false,
+		"isResourcesInternal": false,
+		"aoCount": 1,
+		"relayCount": 4,
+		"uiCount": 4,
+		"flashSize": 262144,
+		"ramSize": 65536,
+		"flashPageSize": 256
 	},
-	"triplet":"thumbv7m-none-none-eabi",
-	"runtime": "clang_rt.builtins-armv7m", 
+	"triplet": "thumbv7m-none-none-eabi",
+	"runtime": "clang_rt.builtins-armv7m",
 	"stdlib": "armv7m/std/picolib",
-	"includePaths": [
-	],
+	"includePaths": [],
 	"stdlibs": [
 		"-lc",
-        "-lm",
+		"-lm",
 		"-nostdlib"
 	]
 }
-

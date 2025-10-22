@@ -1,18 +1,27 @@
-{ 	
-	"description":"M72OB20R - Blind","devManId":2,"devName":"M72OB20R","frameWorkVerA":0,"frameWorkVerB":106,"frameworkSize":78336,
-	"periphInfo":{
-		"isDesktop" : false, "isResourcesInternal" : false,
-		"aoCount":3,"relayCount":6,"uartCount":2,"uiCount":11, "flashSize":262144, "ramSize":65536, "flashPageSize":256
+{
+	"devName": "M72OB20R",
+	"devManId": 2,
+	"frameWorkVerA": 0,
+	"frameWorkVerB": 106,
+	"description": "M72OB20R - Blind",
+	"frameworkSize": 78336,
+	"periphInfo": {
+		"isDesktop": false,
+		"isResourcesInternal": false,
+		"aoCount": 3,
+		"relayCount": 6,
+		"uiCount": 11,
+		"flashSize": 262144,
+		"ramSize": 65536,
+		"flashPageSize": 256
 	},
-	"triplet":"thumbv7m-none-none-eabi",
-	"runtime": "clang_rt.builtins-armv7m", 
+	"triplet": "thumbv7m-none-none-eabi",
+	"runtime": "clang_rt.builtins-armv7m",
 	"stdlib": "armv7m/std/picolib",
-	"includePaths": [
-	],
+	"includePaths": [],
 	"stdlibs": [
 		"-lc",
-        "-lm",
+		"-lm",
 		"-nostdlib"
 	]
 }
-
