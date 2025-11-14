@@ -9,7 +9,7 @@
 		"isDesktop": false,
 		"isResourcesInternal": false,
 		"aoCount": 3,
-		"uartCount": 0,
+		"uartCount": 2,
 		"relayCount": 6,
 		"uiCount": 11,
 		"flashSize": 262144,
