@@ -4,28 +4,10 @@
 			"pkgName": "Moderon",
 			"label": "[0.9.0]",
 			"file": "Moderon_v0_9_0",
-			"toolchain": "0.9.17",
+			"toolchain": "0.9.0",
 			"description": "[Latest version] Package for Devices by Moderon(R): PLCs, Modules of Extensions and etc.",
 			"ver": "0.9.0",
 			"repo": "https://github.com/Retrograd-Studios/eepl_vscode_ext_pkg_moderon/raw/v0_9_0/.eec.zip"
-		},
-		{
-			"pkgName": "Moderon",
-			"label": "[0.9.17]",
-			"file": "Moderon_v0_9_17",
-			"toolchain": "0.9.17",
-			"description": "[Latest version] Package for Devices by Moderon(R): PLCs, Modules of Extensions and etc.",
-			"ver": "0.9.17",
-			"repo": "https://github.com/Retrograd-Studios/eepl_vscode_ext_pkg_moderon/raw/v0_9_17/.eec.zip"
-		},
-		{
-			"pkgName": "Moderon",
-			"label": "[0.9.17]",
-			"file": "Moderon_v0_9_17",
-			"toolchain": "0.9.17",
-			"description": "[Latest version] Package for Devices by Moderon(R): PLCs, Modules of Extensions and etc.",
-			"ver": "0.9.17",
-			"repo": "https://github.com/Retrograd-Studios/eepl_vscode_ext_pkg_moderon/raw/v0_9_17/.eec.zip"
 		},
 		{
 			"pkgName": "Moderon",
