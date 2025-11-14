@@ -15,6 +15,7 @@ SetSources("./../../EEmbCore/EasyFont.es")
 SetSources("./../../EEmbCore/EasyImage.es")
 SetSources("./../../EEmbCore/EasyGUI.es")
 SetSources("./../../EEmbCore/Device.es")
+SetSources("./../../EEmbCore/SerialPort.es")
 
 
 

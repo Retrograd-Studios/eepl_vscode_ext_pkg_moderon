@@ -107,7 +107,6 @@ struct ModbusRemModuleBase_t {
 	isMultipleWrite: uint8 = 1
 	isAbortWriteWhileNoChanges: uint8
 	isAbortWriteWhileReadErr: uint8
-	// regs: pointer
 }
 
 // struct EEmb_modbus_remote_regs_template_t {
@@ -1172,9 +1171,7 @@ extern demangle func MB_FORCE_WRITE_REMOTE_REGS(&EEmb_modbus_remote_reg_t, point
 extern demangle func MODBUS_SET_LOCAL_CHANGED_CALLBACK( func { (&EEmb_modbus_reg_t) -> bool } ) 
 extern demangle func MODBUS_CHECK_LOCAL_CHANGED( pointer )
 
-extern demangle func MODBUS_CFG(uint32, uint32, uint32, uint16)
-extern demangle func UART_CFG(uint32, uint32, uint32, uint32)
-extern demangle func UART_SET_FRAME_CFG(uint32, uint32, uint8)
+extern demangle func MODBUS_CFG(uint32, uint32, uint32, uint8)
 
 extern demangle func MB_REMOTE_MODULE_ADD_INSTANCE(pointer)
 

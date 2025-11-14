@@ -12,7 +12,7 @@ SetSources("./../../EEmbCore/Modbus.es")
 SetSources("./../../EEmbCore/RealTimeClock.es")
 SetSources("./../../EEmbCore/BindVariable.es")
 SetSources("./../../EEmbCore/Device.es")
-
+SetSources("./../../EEmbCore/SerialPort.es")
 
 
 

@@ -50,20 +50,6 @@ enum  {
 }
 
 
-enum  {
-	UART_PARITY_NO = 0,
-	UART_PARITY_EVEN,
-	UART_PARITY_ODD,
-	UART_PARITY_COUNT
-}
-
-enum  {
-	UART_ONE_STOPBIT = 0,
-	UART_TWO_STOPBIT,
-	UART_STOPBITS_COUNT
-}
-
-
 
 
 
