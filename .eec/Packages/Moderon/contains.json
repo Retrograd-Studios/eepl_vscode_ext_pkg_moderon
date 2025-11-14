@@ -6,6 +6,7 @@
 		"Samples/M72OB20R",
 		"Samples/M72OD20R_Slave",
 		"Samples/RawSerialPort",
+		"Samples/RawSerialPortAT",
 		"Samples/Simple",
 		"Samples/Timers",
 		"Samples/WinForms",
