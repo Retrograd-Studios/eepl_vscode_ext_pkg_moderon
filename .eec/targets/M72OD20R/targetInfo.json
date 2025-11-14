@@ -1,15 +1,15 @@
 {
 	"devName": "M72OD20R",
-	"devManId": 5,
+	"devManId": 0,
 	"frameWorkVerA": 0,
 	"frameWorkVerB": 109,
-	"description": "M72OD20R - New Optimized",
+	"description": "M72OD20R - Optimized",
 	"frameworkSize": 78336,
 	"periphInfo": {
 		"isDesktop": false,
 		"isResourcesInternal": false,
 		"aoCount": 3,
-		"uartCount": 0,
+		"uartCount": 2,
 		"relayCount": 6,
 		"uiCount": 11,
 		"flashSize": 262144,
