@@ -264,7 +264,7 @@ func init() {
 		}
 
 		if changedReg.ptr >= MBL_H_PWM1_OUT.ptr 
-			&& changedReg.ptr <= MBL_H_PWM2_OUT.ptr {
+			&& changedReg.ptr <= MBL_H_PWM3_OUT.ptr {
 			
 			let idx: uint32 = (CastTo($int32$ changedReg.ptr) - CastTo($int32$ MBL_H_PWM1_OUT.ptr)) / 2
 			AO_OUTPUT(idx, AOs[idx])
