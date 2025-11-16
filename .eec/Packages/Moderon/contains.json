@@ -28,6 +28,7 @@
 		"include/M72MD13R",
 		"include/M72OB20R",
 		"include/M72OD20R",
+		"include/M72OD20R_2",
 		"include/x64-windows",
 		"targets/M72FSR",
 		"targets/M72MB13R",
