@@ -258,7 +258,7 @@ func init() {
 			&& changedReg.ptr <= MBL_H_UI11_MODE.ptr {
 			
 			let idx = (CastTo($int32$ changedReg.ptr) - CastTo($int32$ MBL_H_UI1_MODE.ptr)) / 2
-			Println(`(${changedReg.ptr} - ${MBL_H_UI1_MODE.ptr}) / ${2} = ${idx}`)
+			// Println(`(${changedReg.ptr} - ${MBL_H_UI1_MODE.ptr}) / ${2} = ${idx}`)
 			UI_CFG(idx, UIs[idx])
 			return true
 		}
@@ -309,6 +309,13 @@ func init() {
 }
 
 
+func foo(s: &string) {
+	Println(s)
+}
+
 func loop() {
+	bkpt()
+	var a = 5
+	// foo(5)
 	DelayMs(100)
 }
