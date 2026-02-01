@@ -2,9 +2,9 @@
 	"devName": "M72OB20R",
 	"devManId": 2,
 	"frameWorkVerA": 0,
-	"frameWorkVerB": 110,
+	"frameWorkVerB": 111,
 	"description": "M72OB20R - Blind",
-	"frameworkSize": 78848,
+	"frameworkSize": 79104,
 	"periphInfo": {
 		"isDesktop": false,
 		"isResourcesInternal": false,
