@@ -2,9 +2,9 @@
 	"devName": "M72FSR",
 	"devManId": 4,
 	"frameWorkVerA": 0,
-	"frameWorkVerB": 114,
+	"frameWorkVerB": 5,
 	"description": "M72FSR",
-	"frameworkSize": 79104,
+	"frameworkSize": 79872,
 	"periphInfo": {
 		"isDesktop": false,
 		"isResourcesInternal": false,
