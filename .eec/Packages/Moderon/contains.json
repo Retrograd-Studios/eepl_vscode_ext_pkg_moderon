@@ -36,6 +36,7 @@
 		"targets/M72MD13R",
 		"targets/M72OB20R",
 		"targets/M72OD20R",
+		"targets/M72OD20R_PVD",
 		"targets/x64-linux",
 		"targets/x64-windows"
 	]
