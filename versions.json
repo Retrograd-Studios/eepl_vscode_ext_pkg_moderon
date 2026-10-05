@@ -3,12 +3,12 @@
 		{
 			"pkgName": "Moderon",
 			"label": "[TEST PVD]",
-			"file": "Moderon_v0_0_2",
+			"file": "Moderon_v0_0_3",
 			"toolchain": "0.9.21",
-			"description": "[Latest version] Package for Devices by Moderon(R): PLCs, Modules of Extensions and etc.",
-			"ver": "0.0.2",
+			"description": "[TEST VERSION] Moderon",
+			"ver": "0.0.3",
 			"repo": "https://github.com/Retrograd-Studios/eepl_vscode_ext_pkg_moderon/raw/main/versions.json",
-			"archive": "https://github.com/Retrograd-Studios/eepl_vscode_ext_pkg_moderon/raw/v0_0_2/.eec.zip"
+			"archive": "https://github.com/Retrograd-Studios/eepl_vscode_ext_pkg_moderon/raw/v0_0_3/.eec.zip"
 		},
 		{
 			"pkgName": "Moderon",
