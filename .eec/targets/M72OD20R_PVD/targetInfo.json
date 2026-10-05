@@ -1,8 +1,8 @@
 {
-	"devName": "M72OD20R",
+	"devName": "M72OD20R_PVD",
 	"devManId": 10000,
 	"frameWorkVerA": 0,
-	"frameWorkVerB": 117,
+	"frameWorkVerB": 118,
 	"description": "M72OD20R - LOW POWER TEST",
 	"frameworkSize": 80128,
 	"periphInfo": {
